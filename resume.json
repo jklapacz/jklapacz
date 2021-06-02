@@ -106,8 +106,8 @@
       "description": "I-L-L",
       "position": "Teacher's Assisstant - Computer Security",
       "url": "https://www.linkedin.com/company/2650",
-      "startDate": "2017-01-31",
-      "endDate": "2017-04-30",
+      "startDate": "2016-12-20",
+      "endDate": "2017-05-30",
       "summary": "",
       "highlights": [
         "Helped arrange lab activities to strengthen pragmatic cybersecurity skills.",
@@ -120,8 +120,8 @@
       "description": "Data",
       "position": "Software Engineer (Intern)",
       "url": "https://www.linkedin.com/company/105718",
-      "startDate": "2016-06-30",
-      "endDate": "2016-08-31",
+      "startDate": "2016-05-30",
+      "endDate": "2016-09-30",
       "summary": "",
       "highlights": [
         "Studied an existing architecture and created a drop-in replacement for a data collection service intended to replace a soon-to-be-deprecated API.\n`[Java,Big Data, Data Firehose]`",
@@ -135,8 +135,8 @@
       "summary": "First Trust is a financial services company established in 1991 to offer trusted investment advice and services.\n\nThis was a valuable internship because I was able to experience a lot of technology which went parallel to the eventual industry standard (think `mercurial` vs `git`).",
       "position": "Software Engineer (Intern)",
       "url": "https://www.linkedin.com/company/18493",
-      "startDate": "2015-06-30",
-      "endDate": "2015-08-31",
+      "startDate": "2015-05-30",
+      "endDate": "2015-09-30",
       "highlights": [
         "Developed an app to maintain FTP credentials",
         "Automated testting FTP credentials, purging invalid configs, and detecting missing configuration values."
@@ -144,6 +144,19 @@
     }
   ],
   "skills": [
+    {
+      "name": "I use this enough that I've read through the inner workings",
+      "level": "Master",
+      "keywords": [
+        "Bash",
+        "SQL",
+        "Ruby",
+        "Python",
+        "Javascript",
+        "Typescript",
+        "Deno"
+      ]
+    },
     {
       "name": "Full-stack Development",
       "level": "Master",
@@ -179,19 +192,6 @@
         "podman",
         "containerization",
         "cli-development"
-      ]
-    },
-    {
-      "name": "The 'Everyday Carry'",
-      "level": "Master",
-      "keywords": [
-        "Bash",
-        "SQL",
-        "Ruby",
-        "Python",
-        "Javascript",
-        "Typescript",
-        "Deno"
       ]
     },
     {
