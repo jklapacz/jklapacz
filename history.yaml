@@ -1,0 +1,80 @@
+- job: Pindrop
+  title: Senior Software Engineer
+  dates: 05/20 - Present
+  accomplishments:
+  - Worked with internal support team to design and implemented a process to automatically migrate customers into our cloud environment.
+  - Created developer tooling to spin up full production environments using firecracker virtual machines which allowed for legacy systems to be deployable within seconds down from 10 minutes.
+  - Architected a framework built on top of AWS Lambda and Terraform to allow for programmatic management of internal platforms (Kubernetes, RDS, Terraform, Lambda).
+  - Discovered significant cost saving opportunities by analyzing a complex build system and designing an alternative process to reduce development costs by over $100K yearly.
+  - Implemented a build system for the main customer-facing application using esbuild to replace Webpack. Eliminated hundreds of npm dependencies in the process and reduced the build duration by over 99% (from > 7 minutes to < 6 seconds!)
+
+- job: Pindrop
+  title: Software Engineer II
+  dates: 04/18 - 05/20
+  accomplishments:
+  - Led application development team, provided subject matter expertise, and collaborated with other teams to build features which closed a multi-million dollar contract on time.
+  - Overhauled a monolithic legacy application into a modular React-based architecture resulting in over 85% code coverage and a 87% decrease in build time.
+  - Programmed a performance testing utility which could simulate phone call data at a rate of over 2 billion calls a year.
+  - Implemented performance critical code in a hybrid cloud/on-premise distributed fraud-detection application using Ruby on Rails, Typescript, Python, and Go.
+  - Managed initiative resulting in a 93% improvement in code quality of extensive Ruby on Rails codebase.
+  - Directed initiative to create a design system for reusable components.
+  - Constructed a GraphQL application layer to simplify migration from legacy application while retaining full backwards compatibility.
+
+- job: Pindrop
+  title: Backend Software Engineer
+  dates: 06/17 - 04/18
+  accomplishments:
+  - Created dashboards and visualizations using React and integrated into a legacy Rails application.
+  - Improved data processing algorithms to decrease computation time by over 98% (from 218s to 3.5s).
+  - Designed and implemented continuous integration pipeline to improve efficiency of build process decreasing build time by 80% (from 25 min to < 5).
+  - Worked with multiple stakeholders to determine application requirements and implemented custom internal configuration management software.
+  - Architected and implemented a reporting application capable of performing complex queries over vast datasets containing data about hundreds of millions of phone calls a year.
+
+- project: Cloud Migration Toolkit
+  summary: 
+	Internal library and CLI application for automating migration from an on-premise system to a system hosted on AWS and kubernetes.
+	Created a framework which provides a modular way to collect, transform, and transport data (including configurations and trained ML models) between different systems and architectures.
+	Utilized Terraform to automate creation of infrastructure but also allowed for the migration pipeline to utilize existing (and externally managed) AWS resources.
+  tags:
+  - python
+  - nodejs
+  - typescript
+  - bash / sh / unix
+  - developer tooling
+  - library
+  - cli
+  - AWS - SSM
+  - AWS - RDS
+  - AWS - Lambda
+  - AWS - S3
+  - AWS - Networking / Security Groups / Etc.
+
+- project: Unified UI Architecture
+  summary:
+  	Turned an initial internal-hackathon project into a company initiative in order to unify the UI across the on-premise and cloud applications.
+  	Created a "backend-for-frontend (BFFE)" GraphQL data layer which would sit between the unified UI and the system the application runs on. The BFFE was modular and a could be extended to support arbitrary environments as long as the relevant GraphQL resolvers are implemented.
+        Allowed for decoupling of UI development from backend API work allowing teams more flexibility to work on completing separate aspects of a feature without being blocked by cross-team dependencies.
+  tags:
+  - javascript
+  - typescript
+  - nodejs
+  - GraphQL
+  - react / redux
+  - ruby / rails
+  - kubernetes
+  - devops
+
+projects:
+- esbuild build process for UI
+- realtime data aggregator for crypto exchange live trade data
+- Snowpack for dev for UI
+- fds-ui/fds-reports gem packaging process
+- NixOS for developer onboarding and development sharability
+- Bazel PoC for improving build process, path towards one unified code base
+- GraphQL / OneUI
+- custom-made CI build orchestrator
+- adhoc debugging tooling for message bus-based system
+
+prototypes / ideas:
+- rust+wasm+js: highly performant audio waveform renderer, integrates with scrubber/player to expose an interface for training ML models.
+- 

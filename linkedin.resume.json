@@ -1,0 +1,344 @@
+{
+    "basics": {
+      "name": "Jakub Klapacz",
+      "label": "Full-stack software engineer specializing in Redux, React, and Rails",
+      "picture": "",
+      "email": "kubaklapacz@gmail.com",
+      "phone": "(815) 603-8732",
+      "website": "https://blog.k5z.dev",
+      "summary": "I am a Software Engineer II at Pindrop currently focusing on full stack development based on a React + Rails stack. I specialize in identifying and solving complex problems by analyzing their domain and generalizing a solution. \n\nCurrently I have been working on rearchitecting a major application by breaking up a monolithic code base into a micro-service architecture. This is in addition to establishing and developing a design system for reusable components and a set of standards for programming patterns and state management paradigms to maximize performance in a reactive UI.\n\nI enjoy analyzing existing systems to learn how they function in order to identify how they can be improved; recently I have achieved this by completing the design and implementation of a build process which reduced the build time of our application by 80% (from 25 minutes to < 5). Additionally I have overhauled methods to extract data decreasing export time by over 98% (from 218 seconds to 3.5).\n\nIn addition to development I have experience with dev-ops workflows. I developed a CI application which I deprecated in favor of GoCD; I play the role of managing development workflows within my team.",
+      "location": {
+        "countryCode": "US",
+        "address": "United States"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "ACoAABEH0OYBevhFODX7kB8O-RLdFxLXlATPDNs",
+          "url": "https://www.linkedin.com/in/ACoAABEH0OYBevhFODX7kB8O-RLdFxLXlATPDNs/"
+        },
+        {
+          "network": "Github",
+          "username": "jklapacz",
+          "url": "https://github.com/jklapacz"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Pindrop",
+        "endDate": "",
+        "highlights": [],
+        "position": "Software Engineer II",
+        "startDate": "2017-06-30",
+        "summary": "*       Designed, proposed, and implemented an architecture to facilitate a transition from a monolithic legacy application into a modular React-based app with over 85% global code coverage\n•\tLead and worked on designing and implementing a design system for reusable components.\n•\tRefactored the state management layer of a React application to use a custom Redux API which minimizes boilerplate and repetitive code.\n•\tDesigned and executed a plan to overhaul our build process decreasing build time by 80% (from 25 min to < 5).\n•\tRefactored data extraction process to decrease export time by over 98% (from 218s to 3.5s)\n•\tCreated development workflow and CI pipeline using GoCD.\n",
+        "website": "https://www.linkedin.com/company/2326557"
+      },
+      {
+        "company": "University of Illinois at Urbana-Champaign",
+        "endDate": "2017-04-30",
+        "highlights": [],
+        "position": "Teacher Assisstant - Computer Security",
+        "startDate": "2017-01-31",
+        "summary": "* Organized and supervised lab sections for a hands-on computer security class\n* Graded assignments and held office-hour sections to answer questions and explain difficult concepts\n",
+        "website": "https://www.linkedin.com/company/2650"
+      },
+      {
+        "company": "Networked Insights",
+        "endDate": "2016-08-31",
+        "highlights": [],
+        "position": "Software Engineering Intern",
+        "startDate": "2016-06-30",
+        "summary": "•\tWrote a Java library to interface with a 3rd party API replacing existing collector\n•\tDecreased API response time to perform over 3x faster than the previous implementation\n•\tUpgraded how Facebook data was collected to a live stream of content decreasing latency to <5 minutes \n•\tParticipated in the Agile development cycle  ",
+        "website": "https://www.linkedin.com/company/105718"
+      },
+      {
+        "company": "First Trust",
+        "endDate": "2015-08-31",
+        "highlights": [],
+        "position": "Software Development Intern",
+        "startDate": "2015-06-30",
+        "summary": "•\tDeveloped an app to maintain FTP credentials \n•\tImplemented functionality to automatically test credentials and remove invalid information.\n•\tEstablished the capability to automatically find FTP credentials that are missing from the application\n•\tParticipated in the Waterfall development cycle",
+        "website": "https://www.linkedin.com/company/18493"
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "University of Illinois at Urbana-Champaign",
+        "area": "Computer Science",
+        "studyType": "Bachelor’s Degree",
+        "startDate": "2013-12-31",
+        "endDate": "2017-12-31",
+        "gpa": "Junior",
+        "courses": [
+          "CS 233 - Data Structures",
+          "CS 233 - Computer Architecture",
+          "CS 440 - Artificial Intelligence",
+          "CS 498 - Probability in CS",
+          "CS 411 - Database Systems",
+          "CS 412 - Introduction to Data Mining",
+          "CS 460 - Security Laboratory",
+          "CS 374 - Algorithms and Models of Computation",
+          "CS 473 - Algorithms",
+          "CS 357 - Numerical Methods"
+        ]
+      },
+      {
+        "institution": "Lockport Township High School",
+        "area": "",
+        "studyType": "",
+        "startDate": "2009-12-31",
+        "endDate": "2013-12-31",
+        "gpa": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Full-Stack Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Ruby",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Computer Science",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "DevOps",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Operating Systems",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Elixir",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft Office",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Ruby on Rails",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Customer Service",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Databases",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "TypeScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Research",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Testing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Node.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Team Leadership",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Artificial Intelligence",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Linux",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Systems Programming",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Classification",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "CI",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Unix",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Strategic Planning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Algorithms",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "User Interface Design",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Git",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Agile Methodologies",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C++",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Redux.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Windows",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Programming",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Go (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Kernel Programming",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Project Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "React.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "MySQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Leadership",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "language": "en",
+        "fluency": "Native Speaker"
+      }
+    ],
+    "interests": [],
+    "references": []
+  }
