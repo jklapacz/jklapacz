@@ -110,8 +110,8 @@
       "endDate": "2017-04-30",
       "summary": "",
       "highlights": [
-        "Organized and supervised lab sections for a hands-on computer security class",
-        "Graded assignments and held office-hour sections to answer questions and explain difficult concepts"
+        "Helped arrange lab activities to strengthen pragmatic cybersecurity skills.",
+        "Managed grading and planning of lab sessions."
       ]
     },
     {
@@ -124,26 +124,22 @@
       "endDate": "2016-08-31",
       "summary": "",
       "highlights": [
-        "Wrote a Java library to interface with a 3rd party API replacing existing collector",
-        "Decreased API response time to perform over 3x faster than the previous implementation",
-        "Upgraded how Facebook data was collected to a live stream of content decreasing latency to <5 minutes",
-        "Participated in the Agile development cycle"
+        "Studied an existing architecture and created a drop-in replacement for a data collection service intended to replace a soon-to-be-deprecated API.\n`[Java,Big Data, Data Firehose]`",
+        "Refactored data collector API, identified inefficiencies, and improved performance **by over 3x**.\n[`Optimization, Performance]`",
+        "Migrated a polling approach to a pub-sub architecture bringing latency of realtime social media data to a consistent level. "
       ]
     },
     {
-      "name": "First Trust Portfolios",
+      "name": "First Trust",
       "location": "Wheaton, IL",
-      "description": "Money",
+      "summary": "First Trust is a financial services company established in 1991 to offer trusted investment advice and services.\n\nThis was a valuable internship because I was able to experience a lot of technology which went parallel to the eventual industry standard (think `mercurial` vs `git`).",
       "position": "Software Engineer (Intern)",
       "url": "https://www.linkedin.com/company/18493",
       "startDate": "2015-06-30",
       "endDate": "2015-08-31",
-      "summary": "",
       "highlights": [
         "Developed an app to maintain FTP credentials",
-        "Implemented functionality to automatically test credentials and remove invalid information.",
-        "Established the capability to automatically find FTP credentials that are missing from the application",
-        "Participated in the Waterfall development cycle"
+        "Automated testting FTP credentials, purging invalid configs, and detecting missing configuration values."
       ]
     }
   ],
@@ -175,7 +171,7 @@
     },
     {
       "name": "DevOps",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "terraform",
         "kubernetes",
@@ -183,6 +179,46 @@
         "podman",
         "containerization",
         "cli-development"
+      ]
+    },
+    {
+      "name": "The 'Everyday Carry'",
+      "level": "Master",
+      "keywords": [
+        "Bash",
+        "SQL",
+        "Ruby",
+        "Python",
+        "Javascript",
+        "Typescript",
+        "Deno"
+      ]
+    },
+    {
+      "name": "Comfortable, just let me check the docs",
+      "level": "Advanced",
+      "keywords": [
+        "Go",
+        "Nix/NixOS"
+      ]
+    },
+    {
+      "name": "I've used this to make non-trivial programs",
+      "level": "Intermediate",
+      "keywords": [
+        "Rust",
+        "Elixir",
+        "C",
+        "C++",
+        "Haskell"
+      ]
+    },
+    {
+      "name": "I've dabbled but am curious",
+      "level": "Intermediate",
+      "keywords": [
+        "Crystal",
+        "Julia"
       ]
     }
   ],
