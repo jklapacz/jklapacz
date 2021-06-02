@@ -9,8 +9,6 @@
     "website": "https://k5z.dev",
     "summary": "I'm a senior software engineer with a background in artificial intelligence and big data. I wish to work on data-driven systems with an uncompromising focus on performance (application-level as well as developer-experience).\n\nHaving worked at a number of startups I feel very comfortable amidst the chaos of a high-growth startup; the insights I bring from witnessing what happens when a tech startup takes off can be very valuable in helping avoid expensive mistakes.\n\nI have created applications from the ground up, broken apart legacy monolithic systems into microservices, created and maintained CI/CD pipelines, mentored and onboarded team-members and served as the subject matter expert on a number of (legacy) on-premise systems... at my core I am a technologist who strongly believes in automating what can be automated and am comfortable in almost any technical context.\n\nMy recent focus has turned towards working on tools which improve developer productivity and the developer experience and I am excited about the idea of utilizing AI/ML to improve the way developers can write code.",
     "location": {
-      "address": "1845 Piedmont Ave NE Apt 358",
-      "postalCode": "GA 30324",
       "city": "Atlanta",
       "countryCode": "US",
       "region": "Georgia"
@@ -62,10 +60,10 @@
       "url": "https://pindrop.com",
       "startDate": "2020-05-01",
       "highlights": [
-        "Architected and implemented a framework built on top of AWS Lambda and Terraform allowing for programmatic management of internal platforms \n`Python, Kubernetes, Terraform, AWS/RDS, AWS/Lambda`",
+        "Architected and implemented a framework built on top of AWS Lambda and Terraform allowing for programmatic management of internal platforms \n`[kubernetes, rds, terraform, aws lambda]`",
         "Worked with internal support team to design and implemented a process to automatically migrate customers into our cloud environment.",
         "Created developer tooling to spin up full production environments using firecracker virtual machines enabling a deployment process which has decreased from **~10 minutes to ~30 seconds**",
-        "Discovered significant cost saving opportunities by analyzing a complex build system and designing an alternative process to reduce development costs by **over $100K yearly**.\n`ESBuild, Snowpack, Deno, Node`",
+        "Discovered significant cost saving opportunities by analyzing a complex build system and designing an alternative process to reduce development costs by **over $100K yearly**.\t `[esbuild,snowpack,deno,node.js]`",
         "Implemented an alternate build system for a large production-critical `react` application using `esbuild` instead of `webpack`. Eliminated hundreds of npm dependencies in the process and **reduced the build duration by over 99% (from > 7 minutes to < 6 seconds!)**"
       ]
     },
@@ -78,11 +76,11 @@
       "endDate": "2020-05-01",
       "highlights": [
         "Overhauled a monolithic legacy application into a modular React-based architecture resulting in over 85% code coverage and a 87% decrease in build time.",
-        "Programmed a performance testing utility which could simulate phone call data at a rate of **over 2 billion calls a year.**\n`Ruby, Rails, Bash`",
-        "Maintained performance critical code and implemented bottleneck-optimizations in a distributed high-performance application.\n`Ruby, Rails, Typescript, Python, Go`",
-        "Pushed for and executed an initiative to improve automated code linting in a legacy application. Oversaw a **93% reduction of lint warnings and errors**.\n`Rubocop, Ruby, Rails`",
-        "Designed the architecture for a design system of reusable components.\n`React, Javascript, Typescript, Rollup`",
-        "Created a framework for building a unified UI which relied on `GraphQL` to allow for a modular system of backend/frontend interaction.\n`React, GraphQL, Apollo, JavaScript, Typescript`",
+        "Programmed a performance testing utility which could simulate phone call data at a rate of **over 2 billion calls a year.**\n`[Ruby, Rails, Bash]`",
+        "Maintained performance critical code and implemented bottleneck-optimizations in a distributed high-performance application.\n`[Ruby, Rails, Typescript, Python, Go]`",
+        "Pushed for and executed an initiative to improve automated code linting in a legacy application. Oversaw a **93% reduction of lint warnings and errors**.\n`[Rubocop, Ruby, Rails]`",
+        "Designed the architecture for a design system of reusable components.\n`[React, Javascript, Typescript,Rollup]`",
+        "Created a framework for building a unified UI which relied on `GraphQL` to allow for a modular system of backend/frontend interaction.\n`[React, GraphQL, Apollo, JavaScript, Typescript]`",
         "Led application development team, provided subject matter expertise, and collaborated with other teams to build features which closed a multi-million dollar contract on time."
       ]
     },
@@ -94,10 +92,10 @@
       "startDate": "2017-06-01",
       "endDate": "2018-04-01",
       "highlights": [
-        "Improved data processing algorithms to decrease computation time **by over 98% (from 218s to 3.5s)**.\n`SQL, Performance`",
-        "Designed and implemented continuous integration pipeline to improve efficiency of build process **decreasing build time by 80% (from 25 min to < 5)**.\n`Ruby, CI/CD, Bash, DevEx`",
-        "Worked with multiple stakeholders to determine application requirements and implemented custom internal configuration management software.\n`React, Redux, Javascript, Flow.js`",
-        "Architected and implemented a reporting application capable of performing complex queries over vast datasets containing data about hundreds of millions of phone calls a year.\n`Ruby, Rails, Data Warehousing, Adhoc Reporting, Performance`"
+        "Improved data processing algorithms to decrease computation time **by over 98% (from 218s to 3.5s)**.\n`[SQL, Performance]`",
+        "Designed and implemented continuous integration pipeline to improve efficiency of build process **decreasing build time by 80% (from 25 min to < 5)**.\n`[Ruby, CI/CD, Bash, DevEx]`",
+        "Worked with multiple stakeholders to determine application requirements and implemented custom internal configuration management software.\n`[React, Redux, Javascript, Flow.js]`",
+        "Architected and implemented a reporting application capable of performing complex queries over vast datasets containing data about hundreds of millions of phone calls a year.\n`[Ruby, Rails, Data Warehousing, Adhoc Reporting, Performance]`"
       ]
     },
     {
@@ -124,8 +122,8 @@
       "endDate": "2016-09-30",
       "summary": "",
       "highlights": [
-        "Studied an existing architecture and created a drop-in replacement for a data collection service intended to replace a soon-to-be-deprecated API.\n`Java, Big Data, Data Firehose`",
-        "Refactored data collector API, identified inefficiencies, and improved performance **by over 3x**.\n`Optimization, Performance`",
+        "Studied an existing architecture and created a drop-in replacement for a data collection service intended to replace a soon-to-be-deprecated API.\n`[Java,Big Data, Data Firehose]`",
+        "Refactored data collector API, identified inefficiencies, and improved performance **by over 3x**.\n[`Optimization, Performance]`",
         "Migrated a polling approach to a pub-sub architecture bringing latency of realtime social media data to a consistent level. "
       ]
     },
@@ -213,6 +211,13 @@
   "projects": [
     {
       "name": "Cloud Migration Toolkit",
+      "tags": [
+        "AWS/S3",
+        "AWS/SSM",
+        "AWS/RDS",
+        "AWS/Lambda",
+        "AWS/Networking / Security Groups / Etc."
+      ],
       "startDate": "2020-09-15",
       "endDate": "2021-05-01",
       "highlights": [
@@ -220,24 +225,49 @@
         "Created a framework which provides a modular way to collect, transform, and transport data (including configurations and trained ML models) between different systems and architectures.",
         "Utilized Terraform to automate creation of infrastructure but also allowed for the migration pipeline to utilize existing (and externally managed) AWS resources."
       ],
-      "roles": ["Team lead", "Designer", "Implementer"],
+      "roles": ["Team lead", "Designer", ""],
       "entity": "Pindrop",
-      "type": "application/library",
+      "type": "application",
       "description": "Internal library and CLI application for automating migration from an on-premise system to a system hosted on AWS and kubernetes."
     },
     {
-      "name": "Unified UI Architecture",
-      "startDate": "2018-11-20",
-      "endDate": "2019-08-15",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Pindrop",
-      "type": "application",
-      "description": "Turned an internal hackathon project into a company initiative in order to unify the UI across the on-premise and cloud applications.",
+      "name": "Parallel Make",
+      "keywords": ["c", "make", "topological sort", "systems programming"],
+      "startDate": "2015-09-15",
+      "endDate": "2015-10-15",
       "highlights": [
-        "`Javascript, Typescript, Node, GraphQL, React, Redux, Ruby, Rails, Kubernetes`",
-        "Created a 'backend-for-frontend (BFFE)' `GraphQL` data layer which would sit between the unified UI and the system the application runs on. The BFFE was modular and a could be extended to support arbitrary environments as long as the relevant GraphQL resolvers are implemented.",
-        "Allowed for decoupling of UI development from backend API work allowing teams more flexibility to work on completing separate aspects of a feature without being blocked by cross-team dependencies."
-      ]
+        "Implemented topological sort dependency resolution algorithm to efficiently parallelize tasks"
+      ],
+      "roles": ["Team lead", "Designer"],
+      "entity": "UIUC",
+      "type": "application",
+      "description": "Reverse-engineered `gnu-make`"
+    },
+    {
+      "name": "Parallel Make",
+      "keywords": ["c", "make", "topological sort", "systems programming"],
+      "startDate": "2015-09-15",
+      "endDate": "2015-10-15",
+      "highlights": [
+        "Implemented topological sort dependency resolution algorithm to efficiently parallelize tasks"
+      ],
+      "roles": ["Team lead", "Designer"],
+      "entity": "UIUC",
+      "type": "application",
+      "description": "Reverse-engineered `gnu-make`"
+    },
+    {
+      "name": "Parallel Make",
+      "keywords": ["c", "make", "topological sort", "systems programming"],
+      "startDate": "2015-09-15",
+      "endDate": "2015-10-15",
+      "highlights": [
+        "Implemented topological sort dependency resolution algorithm to efficiently parallelize tasks"
+      ],
+      "roles": ["Team lead", "Designer"],
+      "entity": "UIUC",
+      "type": "application",
+      "description": "Reverse-engineered `gnu-make`"
     },
     {
       "name": "Memory Allocator",
