@@ -225,36 +225,10 @@
         "Created a framework which provides a modular way to collect, transform, and transport data (including configurations and trained ML models) between different systems and architectures.",
         "Utilized Terraform to automate creation of infrastructure but also allowed for the migration pipeline to utilize existing (and externally managed) AWS resources."
       ],
-      "roles": ["Team lead", "Designer", ""],
+      "roles": ["Architect", "Engineer", "Project Lead"],
       "entity": "Pindrop",
       "type": "application",
       "description": "Internal library and CLI application for automating migration from an on-premise system to a system hosted on AWS and kubernetes."
-    },
-    {
-      "name": "Parallel Make",
-      "keywords": ["c", "make", "topological sort", "systems programming"],
-      "startDate": "2015-09-15",
-      "endDate": "2015-10-15",
-      "highlights": [
-        "Implemented topological sort dependency resolution algorithm to efficiently parallelize tasks"
-      ],
-      "roles": ["Team lead", "Designer"],
-      "entity": "UIUC",
-      "type": "application",
-      "description": "Reverse-engineered `gnu-make`"
-    },
-    {
-      "name": "Parallel Make",
-      "keywords": ["c", "make", "topological sort", "systems programming"],
-      "startDate": "2015-09-15",
-      "endDate": "2015-10-15",
-      "highlights": [
-        "Implemented topological sort dependency resolution algorithm to efficiently parallelize tasks"
-      ],
-      "roles": ["Team lead", "Designer"],
-      "entity": "UIUC",
-      "type": "application",
-      "description": "Reverse-engineered `gnu-make`"
     },
     {
       "name": "Parallel Make",
@@ -278,7 +252,6 @@
         "Created a dynamic memory allocation strategy to vary the size of memory based on application need",
         "Achieved performance 15% faster than that of glibc"
       ],
-      "roles": ["Team lead", "Designer"],
       "entity": "UIUC",
       "type": "application",
       "description": "Designed and implemented an alternate implementation of the `malloc()` function."
